@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LowKey-My-profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- START MAIN -->
+<div class="register">
+    <!-- START NAV -->
+    <nav class="navbar nav-land navbar-expand-md nav-library">
+        <a class="navbar-brand mx-auto" href="#">
+            <img src="img/LOWKEY-HORIZONTAL-LOGO.png" class="low-logo" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link store-link" href="#">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link sub-info-link" href="#">Subscription Info</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link about-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--  START NAV -->
+
+    <!-- Default form login -->
+<div class="land-register">
+	<div class="my-profile-left">
+		<div id="reg-text">
+            <ul class="categories-ul">
+                <li class="tablink active" onclick="checkTab(event,'my-profile')">
+                    My profile
+                    <i class="fa fa-chevron-circle-right"></i>
+                </li>
+                <li class="tablink" onclick="checkTab(event,'edit-profile')">
+                    Edit profile
+                    <i class="fa fa-chevron-circle-right"></i>
+                </li>
+                <li class="tablink" onclick="checkTab(event,'my-library')">
+                    My library
+                    <i class="fa fa-chevron-circle-right"></i></li>
+                <li class="tablink" onclick="checkTab(event,'purchase-history')">
+                    Purchase history
+                    <i class="fa fa-chevron-circle-right"></i>
+                </li>
+            </ul>
+        </div>
+        <div id="particles-js"></div> 
+    </div>
+    <div class="my-profile-right" id="style-4">
+        <div class="tabcontent" id="my-profile">
+            <form action="#">
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">name : </label>
+                            Full name
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Dj name :</label>
+                            Sanjoy Roy
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">city :</label>
+                            Howrah
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">State :</label>
+                            West Bengal
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Country :</label>
+                            India
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="" class="misc-info-left">Website :</label>
+                            <div class="misc-info-right">
+                                <i class="fa fa-facebook-square">facebook.com</i> <br>
+                                <i class="fa fa-twitter-square">twitter.com</i><br>
+                                <i class="fa fa-instagram">instagram.com</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="" class="misc-info-left">Misc Info :</label>
+                            <div class="misc-info-right">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a 
+                            type specimen book.
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">email address :</label>
+                            abc.xyz@gmail.com
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">password :</label>
+                            123456789
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="new-login-btn">print</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="tabcontent" id="edit-profile">
+            <form action="#">
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">First name</label>
+                            <input type="text" class="new-login-input form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="">Last name</label>
+                            <input type="text" class="new-login-input form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Dj name</label>
+                            <input type="text" class="new-login-input form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">city</label>
+                            <input type="text" class="new-login-input form-control" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">State</label>
+                            <select class="new-login-input form-control">
+                                <option data-display=""></option>
+                                <option value="1">Electronic Dance Music</option>
+                                <option value="2">Rock</option>
+                                <option value="3">Reggae</option>
+                                <option value="4">Blues</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group">
+                            <label for="">Country</label>
+                            <select class="new-login-input form-control">
+                                <option data-display=""></option>
+                                <option value="1">Electronic Dance Music</option>
+                                <option value="2">Rock</option>
+                                <option value="3">Reggae</option>
+                                <option value="4">Blues</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Website</label>
+                            <input type="text" class="new-login-input form-control" />
+                            <span class="website-note">Peronal site or social media handles like
+                                 <i class="fa fa-facebook-square"></i>  <i class="fa fa-twitter-square"></i>  
+                                <i class="fa fa-instagram"></i>  etc</span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Misc Info</label>
+                            <textarea cols="20" rows="3" class="new-login-input form-control"
+                            placeholder="Tell us a little bit about yourself."></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="line"></div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="">Enter your current password to save changes</label>
+                            <input type="text" placeholder="Password" class="new-login-input form-control">
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="new-login-btn">Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="tabcontent" id="my-library">
+            <div class="filter">
+                <div id="myBtnContainer">
+                    <button id="all-btn" class="filter-btn filter-active" onclick="filterSelection('all')">
+                        <span>All</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                    <button id="favorites-btn" class="filter-btn" onclick="filterSelection('favorites')">
+                        <span>favorites</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                    <button id="insights-btn" class="filter-btn" onclick="filterSelection('insights')">
+                        <span>date added</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                    <button id="stories-btn" class="filter-btn" onclick="filterSelection('stories')">
+                        <span>recents</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 filterDiv favorites">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 filterDiv insights">
+                        <div class="blog">
+                            <div class="blog">
+                                <div class="blog-image">
+                                    <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-read-more text-center">
+                                        <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 filterDiv stories">
+                        <div class="blog">
+                            <div class="blog">
+                                <div class="blog-image">
+                                    <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-read-more text-center">
+                                        <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 filterDiv stories insights">
+                        <div class="blog">
+                            <div class="blog">
+                                <div class="blog-image">
+                                    <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-read-more text-center">
+                                        <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 filterDiv stories">
+                        <div class="blog">
+                            <div class="blog">
+                                <div class="blog-image">
+                                    <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-read-more text-center">
+                                        <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 filterDiv stories">
+                        <div class="blog">
+                            <div class="blog">
+                                <div class="blog-image">
+                                    <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-read-more text-center">
+                                        <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 filterDiv insights">
+                        <div class="blog">
+                            <div class="blog">
+                                <div class="blog-image">
+                                    <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                                </div>
+                                <div class="blog-text">
+                                    <div class="blog-read-more text-center">
+                                        <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabcontent" id="purchase-history">
+            <div class="filter">
+                <div id="myBtnContainer">
+                    <button id="all-btn" class="filter-btn filter-active" onclick="filterSelection('all')">
+                        <span>All</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                    <button id="favorites-btn" class="filter-btn" onclick="filterSelection('favorites')">
+                        <span>Favorites</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                    <button id="insights-btn" class="filter-btn" onclick="filterSelection('insights')">
+                        <span>date added</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                    <button id="stories-btn" class="filter-btn" onclick="filterSelection('stories')">
+                        <span>recent</span> <span><i class="fa fa-check"></i></span>
+                    </button>
+                </div>
+
+                <div class="row no-gutters">
+                    <div class="col-md-12 filterDiv favorites bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 filterDiv insights bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 filterDiv stories bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 filterDiv stories insights bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 filterDiv stories bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 filterDiv stories bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12 filterDiv insights bg-color">
+                        <div class="blog">
+                            <div class="blog-image">
+                                <img src="./img/1.jpg" class="mx-auto d-block img-fluid" alt="">
+                            </div>
+                            <div class="blog-text">
+                                <div class="blog-read-more text-center">
+                                    <ul>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase date [dd-mm-yyyy] : 24-06-2020</li>
+                                        <li><i class="fa fa-circle mr-2"></i> purchase amount : $10.99</li>
+                                    </ul>
+                                    <a href="#"><span>play</span> <span><i class="fa fa-play"></i></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- END MAIN -->
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.js"></script>
+    <script src="js/musicplayer.js"></script>
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+    <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
+    <script src="js/custom.js"></script>
+    
+    <script>
+// tab opening function
+function checkTab(evt, id){
+    var i, tablink, tabcontent;
+
+    tabcontent = document.getElementsByClassName('tabcontent');
+    for(i= 0; i < tabcontent.length; i++){
+        tabcontent[i].style.display = "none";
+    }
+
+    tablink = document.getElementsByClassName('tablink');
+    for(i = 0; i < tablink.length; i++){
+        tablink[i].className = tablink[i].className.replace(" active", "");
+    }
+
+    document.getElementById(id).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+
+
+
+
+
+
+        filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("filter-btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("filter-active");
+    current[0].className = current[0].className.replace(" filter-active", "");
+    this.className += " filter-active";
+  });
+}
+
+    </script>
+        
+   
+</body>
+</html>
